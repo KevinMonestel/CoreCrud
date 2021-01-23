@@ -1,9 +1,0 @@
-C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.ViewModels\bin\Debug\netcoreapp3.1\CoreCrud.ViewModels.deps.json
-C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.ViewModels\bin\Debug\netcoreapp3.1\CoreCrud.ViewModels.dll
-C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.ViewModels\bin\Debug\netcoreapp3.1\CoreCrud.ViewModels.pdb
-C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.ViewModels\obj\Debug\netcoreapp3.1\CoreCrud.ViewModels.csprojAssemblyReference.cache
-C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.ViewModels\obj\Debug\netcoreapp3.1\CoreCrud.ViewModels.AssemblyInfoInputs.cache
-C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.ViewModels\obj\Debug\netcoreapp3.1\CoreCrud.ViewModels.AssemblyInfo.cs
-C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.ViewModels\obj\Debug\netcoreapp3.1\CoreCrud.ViewModels.csproj.CoreCompileInputs.cache
-C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.ViewModels\obj\Debug\netcoreapp3.1\CoreCrud.ViewModels.dll
-C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.ViewModels\obj\Debug\netcoreapp3.1\CoreCrud.ViewModels.pdb
