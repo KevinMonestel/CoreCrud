@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CoreCrud.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CoreCrud.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoreCrud.DataAccess.dll": {}
+        }
+      },
+      "CoreCrud.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CoreCrud.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoreCrud.Models.dll": {}
+        }
+      },
+      "CoreCrud.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CoreCrud.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CoreCrud.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoreCrud.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CoreCrud.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../CoreCrud.DataAccess/CoreCrud.DataAccess.csproj",
+      "msbuildProject": "../CoreCrud.DataAccess/CoreCrud.DataAccess.csproj"
+    },
+    "CoreCrud.Models/1.0.0": {
+      "type": "project",
+      "path": "../CoreCrud.Models/CoreCrud.Models.csproj",
+      "msbuildProject": "../CoreCrud.Models/CoreCrud.Models.csproj"
+    },
+    "CoreCrud.Services/1.0.0": {
+      "type": "project",
+      "path": "../CoreCrud.Services/CoreCrud.Services.csproj",
+      "msbuildProject": "../CoreCrud.Services/CoreCrud.Services.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "CoreCrud.DataAccess >= 1.0.0",
+      "CoreCrud.Models >= 1.0.0",
+      "CoreCrud.Services >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Extreme Tech\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Extreme Tech\\Desktop\\Varios\\Core\\CoreCrud\\CoreCrud.BackEnd\\CoreCrud.Core\\CoreCrud.Core.csproj",
+      "projectName": "CoreCrud.Core",
+      "projectPath": "C:\\Users\\Extreme Tech\\Desktop\\Varios\\Core\\CoreCrud\\CoreCrud.BackEnd\\CoreCrud.Core\\CoreCrud.Core.csproj",
+      "packagesPath": "C:\\Users\\Extreme Tech\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Extreme Tech\\Desktop\\Varios\\Core\\CoreCrud\\CoreCrud.BackEnd\\CoreCrud.Core\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Extreme Tech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\Extreme Tech\\Desktop\\Varios\\Core\\CoreCrud\\CoreCrud.BackEnd\\CoreCrud.DataAccess\\CoreCrud.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Extreme Tech\\Desktop\\Varios\\Core\\CoreCrud\\CoreCrud.BackEnd\\CoreCrud.DataAccess\\CoreCrud.DataAccess.csproj"
+            },
+            "C:\\Users\\Extreme Tech\\Desktop\\Varios\\Core\\CoreCrud\\CoreCrud.BackEnd\\CoreCrud.Models\\CoreCrud.Models.csproj": {
+              "projectPath": "C:\\Users\\Extreme Tech\\Desktop\\Varios\\Core\\CoreCrud\\CoreCrud.BackEnd\\CoreCrud.Models\\CoreCrud.Models.csproj"
+            },
+            "C:\\Users\\Extreme Tech\\Desktop\\Varios\\Core\\CoreCrud\\CoreCrud.BackEnd\\CoreCrud.Services\\CoreCrud.Services.csproj": {
+              "projectPath": "C:\\Users\\Extreme Tech\\Desktop\\Varios\\Core\\CoreCrud\\CoreCrud.BackEnd\\CoreCrud.Services\\CoreCrud.Services.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

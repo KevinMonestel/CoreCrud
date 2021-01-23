@@ -25,7 +25,6 @@ namespace CoreCrud.WebApp.Areas.Customer.Controllers
         #region Methods
         public IActionResult Index()
         {
-            _customerService.GetAll();
             return View();
         }
         #endregion
