@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace CoreCrud.Services.DataAccess
 {
-    public interface IGenericRepository<TModel>
+    public interface GenericRepositoryService<TModel>
     {
         IDbConnection GetOpenConnection();
         Task<IEnumerable<TModel>> GetAllAsync();

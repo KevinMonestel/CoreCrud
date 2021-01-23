@@ -4,21 +4,21 @@ using System.Collections.Generic;
 using System.Data;
 using System.Threading.Tasks;
 
-namespace CoreCrud.DataAccess
+namespace CoreCrud.DataAccess.Repositories
 {
     /// <summary>
     /// The concrete implementation of a SQL repository
     /// </summary>
     /// <typeparam name="TEntity"></typeparam>
-    public abstract class SqlRepository<TModel> : IGenericRepository<TModel>
+    public abstract class SqlRepository<TModel> : GenericRepositoryService<TModel>
         where TModel : class
     {
         private string _connectionString;
-        private EDbConnectionTypes _dbType;
+        private DbConnectionTypesEnum _dbType;
 
         public SqlRepository(string connectionString)
         {
-            _dbType = EDbConnectionTypes.SQL;
+            _dbType = DbConnectionTypesEnum.SQL;
             _connectionString = connectionString;
         }
 

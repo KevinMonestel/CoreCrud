@@ -1,4 +1,5 @@
 ﻿using CoreCrud.DataAccess;
+using CoreCrud.DataAccess.Repositories;
 using CoreCrud.Models.Customer;
 using CoreCrud.Services.Customer;
 using Dapper;
