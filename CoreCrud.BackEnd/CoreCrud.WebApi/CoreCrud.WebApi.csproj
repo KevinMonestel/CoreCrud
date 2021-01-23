@@ -16,4 +16,8 @@
     <ProjectReference Include="..\CoreCrud.Services\CoreCrud.Services.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DependencyInjections\" />
+  </ItemGroup>
+
 </Project>

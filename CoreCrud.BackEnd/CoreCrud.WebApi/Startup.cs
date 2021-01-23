@@ -1,3 +1,5 @@
+using CoreCrud.Core.Customer;
+using CoreCrud.Services.Customer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,7 +28,7 @@ namespace CoreCrud.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddSingleton<CustomerService>(x => new CustomerCore(Configuration.GetConnectionString("DbConnection")));
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

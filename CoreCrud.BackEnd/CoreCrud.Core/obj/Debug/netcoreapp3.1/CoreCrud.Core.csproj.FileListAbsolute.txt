@@ -1,0 +1,16 @@
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Core\bin\Debug\netcoreapp3.1\CoreCrud.Core.deps.json
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Core\bin\Debug\netcoreapp3.1\CoreCrud.Core.dll
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Core\bin\Debug\netcoreapp3.1\CoreCrud.Core.pdb
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Core\bin\Debug\netcoreapp3.1\CoreCrud.DataAccess.dll
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Core\bin\Debug\netcoreapp3.1\CoreCrud.Models.dll
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Core\bin\Debug\netcoreapp3.1\CoreCrud.Services.dll
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Core\bin\Debug\netcoreapp3.1\CoreCrud.DataAccess.pdb
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Core\bin\Debug\netcoreapp3.1\CoreCrud.Models.pdb
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Core\bin\Debug\netcoreapp3.1\CoreCrud.Services.pdb
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Core\obj\Debug\netcoreapp3.1\CoreCrud.Core.csprojAssemblyReference.cache
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Core\obj\Debug\netcoreapp3.1\CoreCrud.Core.AssemblyInfoInputs.cache
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Core\obj\Debug\netcoreapp3.1\CoreCrud.Core.AssemblyInfo.cs
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Core\obj\Debug\netcoreapp3.1\CoreCrud.Core.csproj.CoreCompileInputs.cache
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Core\obj\Debug\netcoreapp3.1\CoreCrud.Core.csproj.CopyComplete
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Core\obj\Debug\netcoreapp3.1\CoreCrud.Core.dll
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Core\obj\Debug\netcoreapp3.1\CoreCrud.Core.pdb

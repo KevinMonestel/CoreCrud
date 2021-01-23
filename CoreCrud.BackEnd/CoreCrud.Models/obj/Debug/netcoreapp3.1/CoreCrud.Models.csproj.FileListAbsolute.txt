@@ -1,0 +1,9 @@
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Models\bin\Debug\netcoreapp3.1\CoreCrud.Models.deps.json
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Models\bin\Debug\netcoreapp3.1\CoreCrud.Models.dll
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Models\bin\Debug\netcoreapp3.1\CoreCrud.Models.pdb
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Models\obj\Debug\netcoreapp3.1\CoreCrud.Models.csprojAssemblyReference.cache
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Models\obj\Debug\netcoreapp3.1\CoreCrud.Models.AssemblyInfoInputs.cache
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Models\obj\Debug\netcoreapp3.1\CoreCrud.Models.AssemblyInfo.cs
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Models\obj\Debug\netcoreapp3.1\CoreCrud.Models.csproj.CoreCompileInputs.cache
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Models\obj\Debug\netcoreapp3.1\CoreCrud.Models.dll
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.Models\obj\Debug\netcoreapp3.1\CoreCrud.Models.pdb

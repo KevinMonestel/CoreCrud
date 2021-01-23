@@ -1,0 +1,14 @@
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.DataAccess\bin\Debug\netcoreapp3.1\CoreCrud.DataAccess.deps.json
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.DataAccess\bin\Debug\netcoreapp3.1\CoreCrud.DataAccess.dll
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.DataAccess\bin\Debug\netcoreapp3.1\CoreCrud.DataAccess.pdb
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.DataAccess\obj\Debug\netcoreapp3.1\CoreCrud.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.DataAccess\obj\Debug\netcoreapp3.1\CoreCrud.DataAccess.AssemblyInfo.cs
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.DataAccess\obj\Debug\netcoreapp3.1\CoreCrud.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.DataAccess\obj\Debug\netcoreapp3.1\CoreCrud.DataAccess.dll
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.DataAccess\obj\Debug\netcoreapp3.1\CoreCrud.DataAccess.pdb
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.DataAccess\obj\Debug\netcoreapp3.1\CoreCrud.DataAccess.csprojAssemblyReference.cache
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.DataAccess\bin\Debug\netcoreapp3.1\CoreCrud.Models.dll
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.DataAccess\bin\Debug\netcoreapp3.1\CoreCrud.Models.pdb
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.DataAccess\obj\Debug\netcoreapp3.1\CoreCrud.DataAccess.csproj.CopyComplete
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.DataAccess\bin\Debug\netcoreapp3.1\CoreCrud.Services.dll
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.BackEnd\CoreCrud.DataAccess\bin\Debug\netcoreapp3.1\CoreCrud.Services.pdb

@@ -97,7 +97,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Extreme Tech\\Desktop\\Varios\\Core\\CoreCrud\\CoreCrud.BackEnd\\CoreCrud.Models\\CoreCrud.Models.csproj": {
+                "projectPath": "C:\\Users\\Extreme Tech\\Desktop\\Varios\\Core\\CoreCrud\\CoreCrud.BackEnd\\CoreCrud.Models\\CoreCrud.Models.csproj"
+              },
+              "C:\\Users\\Extreme Tech\\Desktop\\Varios\\Core\\CoreCrud\\CoreCrud.BackEnd\\CoreCrud.Services\\CoreCrud.Services.csproj": {
+                "projectPath": "C:\\Users\\Extreme Tech\\Desktop\\Varios\\Core\\CoreCrud\\CoreCrud.BackEnd\\CoreCrud.Services\\CoreCrud.Services.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -109,6 +116,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
