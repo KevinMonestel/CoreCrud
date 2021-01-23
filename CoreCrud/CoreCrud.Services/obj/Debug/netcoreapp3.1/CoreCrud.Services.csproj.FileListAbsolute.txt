@@ -1,0 +1,12 @@
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Services\bin\Debug\netcoreapp3.1\CoreCrud.Services.deps.json
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Services\bin\Debug\netcoreapp3.1\CoreCrud.Services.dll
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Services\bin\Debug\netcoreapp3.1\CoreCrud.Services.pdb
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Services\obj\Debug\netcoreapp3.1\CoreCrud.Services.csprojAssemblyReference.cache
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Services\obj\Debug\netcoreapp3.1\CoreCrud.Services.AssemblyInfoInputs.cache
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Services\obj\Debug\netcoreapp3.1\CoreCrud.Services.AssemblyInfo.cs
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Services\obj\Debug\netcoreapp3.1\CoreCrud.Services.csproj.CoreCompileInputs.cache
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Services\obj\Debug\netcoreapp3.1\CoreCrud.Services.dll
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Services\obj\Debug\netcoreapp3.1\CoreCrud.Services.pdb
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Services\bin\Debug\netcoreapp3.1\CoreCrud.ViewModels.dll
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Services\bin\Debug\netcoreapp3.1\CoreCrud.ViewModels.pdb
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Services\obj\Debug\netcoreapp3.1\CoreCrud.Services.csproj.CopyComplete

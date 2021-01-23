@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CoreCrud.Core/1.0.0": {
+        "dependencies": {
+          "CoreCrud.Services": "1.0.0",
+          "CoreCrud.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "CoreCrud.Core.dll": {}
+        }
+      },
+      "CoreCrud.Services/1.0.0": {
+        "dependencies": {
+          "CoreCrud.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "CoreCrud.Services.dll": {}
+        }
+      },
+      "CoreCrud.ViewModels/1.0.0": {
+        "runtime": {
+          "CoreCrud.ViewModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CoreCrud.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CoreCrud.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CoreCrud.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
