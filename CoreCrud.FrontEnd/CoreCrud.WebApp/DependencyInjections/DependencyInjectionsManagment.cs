@@ -4,7 +4,7 @@ using CoreCrud.Services.Customer;
 
 namespace CoreCrud.WebApp.DependencyInjections
 {
-    public static class ManagmentDependencyInjections
+    public static class DependencyInjectionsManagment
     {
         public static void Declare(IServiceCollection services)
         {

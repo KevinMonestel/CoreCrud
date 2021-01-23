@@ -34,7 +34,7 @@ namespace CoreCrud.WebApp
                 .AddEntityFrameworkStores<IdentityCoreCrudDbContext>();
             services.AddControllersWithViews();
 
-            ManagmentDependencyInjections.Declare(services);
+            DependencyInjectionsManagment.Declare(services);
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
