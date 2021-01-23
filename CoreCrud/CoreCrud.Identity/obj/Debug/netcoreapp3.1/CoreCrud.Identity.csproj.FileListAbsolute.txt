@@ -1,9 +1,0 @@
-C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Identity\obj\Debug\netcoreapp3.1\CoreCrud.Identity.csprojAssemblyReference.cache
-C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Identity\obj\Debug\netcoreapp3.1\CoreCrud.Identity.AssemblyInfoInputs.cache
-C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Identity\obj\Debug\netcoreapp3.1\CoreCrud.Identity.AssemblyInfo.cs
-C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Identity\obj\Debug\netcoreapp3.1\CoreCrud.Identity.csproj.CoreCompileInputs.cache
-C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Identity\bin\Debug\netcoreapp3.1\CoreCrud.Identity.deps.json
-C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Identity\bin\Debug\netcoreapp3.1\CoreCrud.Identity.dll
-C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Identity\bin\Debug\netcoreapp3.1\CoreCrud.Identity.pdb
-C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Identity\obj\Debug\netcoreapp3.1\CoreCrud.Identity.dll
-C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud\CoreCrud.Identity\obj\Debug\netcoreapp3.1\CoreCrud.Identity.pdb
