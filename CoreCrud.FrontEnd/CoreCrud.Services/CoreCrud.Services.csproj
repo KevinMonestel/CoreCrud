@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Helpers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CoreCrud.ViewModels\CoreCrud.ViewModels.csproj" />
   </ItemGroup>
 

@@ -1,8 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "VSBIFt2zUCvH1Uv17utqvEmZxysjX9CHOHGrodXhhcQYJlWh+FNVMsLhuuw8DgM2scNgKWYKrH7EiF4xj+OtYg==",
+  "dgSpecHash": "ByzSMtkeAJRrpWtPGRQ+h2DfCwLwO6ESylNIRp7HO7zOSNK50ykvC2b+rQjOZx3vpznOd7bWP6nVTqxCZmPC9A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Extreme Tech\\Desktop\\Varios\\Core\\CoreCrud\\CoreCrud.FrontEnd\\CoreCrud.Core\\CoreCrud.Core.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\Extreme Tech\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Extreme Tech\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\Extreme Tech\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Extreme Tech\\.nuget\\packages\\system.net.http.formatting.extension\\5.2.3\\system.net.http.formatting.extension.5.2.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Net.Http.Formatting.Extension 5.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Net.Http.Formatting.Extension",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

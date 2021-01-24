@@ -8,7 +8,7 @@ using CoreCrud.Services.Customer;
 namespace CoreCrud.WebApp.Areas.Customer.Controllers
 {
     [Area("Customer")]
-    [Route("Customer")]
+    [Route("[area]/[controller]/[action]")]
     public class HomeController : Controller
     {
         #region Attributes
@@ -26,6 +26,12 @@ namespace CoreCrud.WebApp.Areas.Customer.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+
+        public async Task<IActionResult> Get(int Id)
+        {
+            var customer = await _customerService.FindAsync(Id);
+            return View(customer);
         }
         #endregion
     }
