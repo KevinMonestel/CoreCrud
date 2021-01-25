@@ -1,0 +1,19 @@
+﻿@model CoreCrud.ViewModels.Customer.CustomerViewModel
+
+@{
+}
+
+<a asp-action="Index">Back to list</a>
+
+@if (Model is not null)
+{
+    <p>Id: @Model.Id</p>
+    <p>First Name: @Model.FirstName</p>
+    <p>Last Name: @Model.LastName</p>
+    <p>Country: @Model.Country</p>
+    <p>City: @Model.City</p>
+}
+else
+{
+    <p>Not found</p>
+}

@@ -1,4 +1,23 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿$(function () {
+    $("*[remove-customer]").on("click", function (e) {
+        e.preventDefault();
 
-// Write your JavaScript code.
+        response = confirm("Are you sure?");
+
+        if (response) {
+            let element = $(this);
+            let id = element.data("id");
+            let url = element.data("url");
+
+            $.post(url, { id }, function (response) {
+                if (response.result) {
+                    window.location.reload();
+                    return;
+                }
+                alert("Failed");
+            }).fail(function (state) {
+                alert("Failed");
+            });
+        }
+    });
+});

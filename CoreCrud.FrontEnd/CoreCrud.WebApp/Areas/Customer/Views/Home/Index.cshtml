@@ -1,4 +1,61 @@
-﻿@{
+﻿@model List<CoreCrud.ViewModels.Customer.CustomerViewModel>
+
+@{
 }
 
-<h3>Customers</h3>
+<div class="mb-3">
+    <div class="col-12">
+        <a asp-action="Create" asp-area="Customer" asp-controller="Home" class="btn btn-success">Create</a>
+    </div>
+</div>
+
+@if (Model is not null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.FirstOrDefault().Id)</td>
+                <td>@Html.DisplayNameFor(model => model.FirstOrDefault().FirstName)</td>
+                <td>@Html.DisplayNameFor(model => model.FirstOrDefault().LastName)</td>
+                <td>@Html.DisplayNameFor(model => model.FirstOrDefault().Country)</td>
+                <td>@Html.DisplayNameFor(model => model.FirstOrDefault().City)</td>
+                <td>@Html.DisplayNameFor(model => model.FirstOrDefault().Phone)</td>
+                <td></td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in Model)
+            {
+                <tr>
+                    <td>@customer.Id</td>
+                    <td>@customer.FirstName</td>
+                    <td>@customer.LastName</td>
+                    <td>@customer.Country</td>
+                    <td>@customer.City</td>
+                    <td>@customer.Phone</td>
+                    <td>
+                        <a asp-area="Customer" asp-action="Details" asp-controller="Home" asp-route-id="@customer.Id">
+                            Details
+                        </a>
+
+                        <span> | </span>
+
+                        <a asp-area="Customer" asp-action="Create" asp-controller="Home" asp-route-id="@customer.Id">
+                            Edit
+                        </a>
+
+                        <span> | </span>
+
+                        <a href="#" data-id="@customer.Id" data-url="@Url.Action("Delete", "Home", new { Area = "Customer" })" remove-customer>
+                            Remove
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Add new customer</p>
+}

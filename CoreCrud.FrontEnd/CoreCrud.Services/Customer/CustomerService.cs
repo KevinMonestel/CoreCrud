@@ -9,26 +9,26 @@ namespace CoreCrud.Services.Customer
         /// <summary>
         /// Get all
         /// </summary>
-        Task<List<CustomerViewModel>> GetAll();
+        Task<List<CustomerViewModel>> GetAllAsync();
 
         /// <summary>
         /// Get
         /// </summary>
-        Task<CustomerViewModel> Get(int Id);
+        Task<CustomerViewModel> FindAsync(int Id);
 
         /// <summary>
         /// Create
         /// </summary>
-        Task<bool> Create(CustomerViewModel ViewModel);
+        Task<bool> CreateAsync(CustomerViewModel ViewModel);
 
         /// <summary>
         /// Update
         /// </summary>
-        Task<bool> Update(CustomerViewModel ViewModel);
+        Task<bool> UpdateAsync(CustomerViewModel ViewModel);
 
         /// <summary>
         /// Delete
         /// </summary>
-        Task<bool> Delete(int Id);
+        Task<bool> DeleteAsync(int Id);
     }
 }
