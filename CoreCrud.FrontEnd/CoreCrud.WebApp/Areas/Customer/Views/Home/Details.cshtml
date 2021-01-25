@@ -3,6 +3,8 @@
 @{
 }
 
+<a asp-action="Index">Back to list</a>
+
 @if (Model is not null)
 {
     <p>Id: @Model.Id</p>
@@ -11,5 +13,7 @@
     <p>Country: @Model.Country</p>
     <p>City: @Model.City</p>
 }
-
-<p>Not found</p>
+else
+{
+    <p>Not found</p>
+}

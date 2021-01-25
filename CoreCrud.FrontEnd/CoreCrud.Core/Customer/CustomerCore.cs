@@ -15,6 +15,7 @@ namespace CoreCrud.Core.Customer
         #region Attributes
         private readonly RequestHelperService _requestHelperService;
         private readonly IConfiguration _configuration;
+        private string ApiBackEndUri = string.Empty;
         #endregion
 
         #region Constructors
@@ -22,20 +23,30 @@ namespace CoreCrud.Core.Customer
         {
             _requestHelperService = requestHelperService;
             _configuration = configuration;
+            ApiBackEndUri = _configuration["ApiBackEndUri"];
         }
         #endregion
 
         #region Methods
         public async Task<List<CustomerViewModel>> GetAllAsync()
         {
-            return null;
+            List<CustomerViewModel> customers = new List<CustomerViewModel>();
+
+            var contentResult = await _requestHelperService.GetAsync(ApiBackEndUri, "api/Customer/GetAll");
+
+            if (!string.IsNullOrEmpty(contentResult))
+            {
+                customers = (List <CustomerViewModel>)JsonConvert.DeserializeObject(contentResult, typeof(List<CustomerViewModel>));
+            }
+
+            return customers;
         }
 
         public async Task<CustomerViewModel> FindAsync(int Id)
         {
             CustomerViewModel customer = null;
 
-            var contentResult = await _requestHelperService.Get(_configuration["ApiBackEndUri"], $"api/Customer/Find?Id={Id}");
+            var contentResult = await _requestHelperService.GetAsync(ApiBackEndUri, $"api/Customer/Find?Id={Id}");
 
             if (!string.IsNullOrEmpty(contentResult))
             {
@@ -47,17 +58,44 @@ namespace CoreCrud.Core.Customer
 
         public async Task<bool> CreateAsync(CustomerViewModel ViewModel)
         {
-            return true;
+            bool result = false;
+
+            var contentResult = await _requestHelperService.PostAsync(ApiBackEndUri, "api/Customer/Insert", ViewModel);
+
+            if (!string.IsNullOrEmpty(contentResult))
+            {
+                result = (bool)JsonConvert.DeserializeObject(contentResult, typeof(bool));
+            }
+
+            return result;
         }
 
         public async Task<bool> UpdateAsync(CustomerViewModel ViewModel)
         {
-            return true;
+            bool result = false;
+
+            var contentResult = await _requestHelperService.PutAsync(ApiBackEndUri, "api/Customer/Update", ViewModel);
+
+            if (!string.IsNullOrEmpty(contentResult))
+            {
+                result = (bool)JsonConvert.DeserializeObject(contentResult, typeof(bool));
+            }
+
+            return result;
         }
 
         public async Task<bool> DeleteAsync(int Id)
         {
-            return true;
+            bool result = false;
+
+            var contentResult = await _requestHelperService.DeleteAsync(ApiBackEndUri, $"api/Customer/Delete?Id={Id}");
+
+            if (!string.IsNullOrEmpty(contentResult))
+            {
+                result = (bool)JsonConvert.DeserializeObject(contentResult, typeof(bool));
+            }
+
+            return result;
         }
         #endregion
     }

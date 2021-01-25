@@ -36,18 +36,25 @@ namespace CoreCrud.WebApi.Controllers
         }
 
 
-        [HttpGet]
+        [HttpPost]
         public async Task<IActionResult> Insert(CustomerModel model)
         {
-            await _customerService.InsertAsync(model);
-            return Ok();
+            var result = await _customerService.InsertAsync(model);
+            return Ok(result);
         }
 
-        [HttpGet]
+        [HttpPut]
         public async Task<IActionResult> Update(CustomerModel model)
         {
-            await _customerService.UpdateAsync(model);
-            return Ok();
+            var result = await _customerService.UpdateAsync(model);
+            return Ok(result);
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int Id)
+        {
+            var result = await _customerService.DeleteAsync(Id);
+            return Ok(result);
         }
     }
 }

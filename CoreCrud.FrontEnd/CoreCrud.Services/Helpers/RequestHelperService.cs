@@ -7,11 +7,21 @@ namespace CoreCrud.Services.Helpers
         /// <summary>
         /// GET
         /// </summary>
-        Task<string> Get(string uri, string url);
+        Task<string> GetAsync(string uri, string url);
+
+        /// <summary>
+        /// GET
+        /// </summary>
+        Task<string> DeleteAsync(string uri, string url);
 
         /// <summary>
         /// POST
         /// </summary>
-        Task<string> Post(string uri, string url, object objectDto);
+        Task<string> PutAsync(string uri, string url, object objectDto);
+
+        /// <summary>
+        /// POST
+        /// </summary>
+        Task<string> PostAsync(string uri, string url, object objectDto);
     }
 }

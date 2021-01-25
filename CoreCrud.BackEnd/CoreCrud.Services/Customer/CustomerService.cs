@@ -6,10 +6,10 @@ namespace CoreCrud.Services.Customer
 {
     public interface CustomerService
     {
-        Task DeleteAsync(int id);
+        Task<bool> DeleteAsync(int id);
         Task<CustomerModel> FindAsync(int id);
         Task<IEnumerable<CustomerModel>> GetAllAsync();
-        Task InsertAsync(CustomerModel entity);
-        Task UpdateAsync(CustomerModel entityToUpdate);
+        Task<bool> InsertAsync(CustomerModel entity);
+        Task<bool> UpdateAsync(CustomerModel entityToUpdate);
     }
 }

@@ -9,8 +9,8 @@ namespace CoreCrud.Services.DataAccess
         IDbConnection GetOpenConnection();
         Task<IEnumerable<TModel>> GetAllAsync();
         Task<TModel> FindAsync(int id);
-        Task InsertAsync(TModel model);
-        Task DeleteAsync(int id);
-        Task UpdateAsync(TModel modelToUpdate);
+        Task<bool> InsertAsync(TModel model);
+        Task<bool> DeleteAsync(int id);
+        Task<bool> UpdateAsync(TModel modelToUpdate);
     }
 }

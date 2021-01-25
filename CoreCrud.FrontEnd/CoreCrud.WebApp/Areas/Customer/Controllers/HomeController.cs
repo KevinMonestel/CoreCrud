@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CoreCrud.Services.Customer;
+using CoreCrud.ViewModels.Customer;
 
 namespace CoreCrud.WebApp.Areas.Customer.Controllers
 {
@@ -23,15 +24,62 @@ namespace CoreCrud.WebApp.Areas.Customer.Controllers
         #endregion
 
         #region Methods
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var customers = await _customerService.GetAllAsync();
+            return View(customers);
         }
 
-        public async Task<IActionResult> Get(int Id)
+        public async Task<IActionResult> Details(int id)
         {
-            var customer = await _customerService.FindAsync(Id);
+            var customer = await _customerService.FindAsync(id);
             return View(customer);
+        }
+
+        public async Task<IActionResult> Create(int id = 0)
+        {
+            CustomerViewModel customer = new CustomerViewModel();
+
+            if(id > 0)
+            {
+                customer = await _customerService.FindAsync(id);
+            }
+
+            return View(customer);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(CustomerViewModel customer)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(customer);
+            }
+
+            bool result = false;
+
+            if (customer.Id.Equals(0))
+            {
+                result = await _customerService.CreateAsync(customer);
+            }
+            else
+            {
+                result = await _customerService.UpdateAsync(customer);
+            }
+
+            if (result)
+            {
+                return RedirectToAction("Index");
+            }
+
+            return Content("Error");
+        }
+
+        public async Task<JsonResult> Delete(int id)
+        {
+            var result = await _customerService.DeleteAsync(id);
+            return Json(new { result });
         }
         #endregion
     }

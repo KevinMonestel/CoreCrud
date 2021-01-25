@@ -336,7 +336,9 @@ C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.FrontEnd\CoreCrud.We
 C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.FrontEnd\CoreCrud.WebApp\obj\Debug\net5.0\ref\CoreCrud.WebApp.dll
 C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.FrontEnd\CoreCrud.WebApp\obj\Debug\net5.0\CoreCrud.WebApp.pdb
 C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.FrontEnd\CoreCrud.WebApp\obj\Debug\net5.0\CoreCrud.WebApp.genruntimeconfig.cache
-C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.FrontEnd\CoreCrud.WebApp\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Get.cshtml.g.cs
 C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.FrontEnd\CoreCrud.WebApp\bin\Debug\net5.0\System.Net.Http.Extensions.dll
 C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.FrontEnd\CoreCrud.WebApp\bin\Debug\net5.0\System.Net.Http.Formatting.dll
 C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.FrontEnd\CoreCrud.WebApp\bin\Debug\net5.0\System.Net.Http.Primitives.dll
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.FrontEnd\CoreCrud.WebApp\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewImports.cshtml.g.cs
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.FrontEnd\CoreCrud.WebApp\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Create.cshtml.g.cs
+C:\Users\Extreme Tech\Desktop\Varios\Core\CoreCrud\CoreCrud.FrontEnd\CoreCrud.WebApp\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs
